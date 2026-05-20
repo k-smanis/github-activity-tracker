@@ -7,7 +7,9 @@ authors = [
     { name = "Konstantinos Smanis", email = "smanis.konstantinos@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2.13.4",
+]
 
 [project.scripts]
 github-activity-tracker = "github_activity_tracker:main"
